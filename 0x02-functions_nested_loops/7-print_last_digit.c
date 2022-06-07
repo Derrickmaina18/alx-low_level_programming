@@ -1,13 +1,18 @@
-#include <stdio.h>
+#include "stdio.h"
+
 /**
- * main - check the code
+ * main - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
-int print_last_digit(int r) {
-	int digit;
-	digit = r % 10;
-	_putchar(digit);
-	_putchar("/n");
-	return 0;
+int main(void)
+{
+	int r;
+
+	print_last_digit(98);
+	print_last_digit(0);
+	r = print_last_digit(-1024);
+	_putchar('0' + r);
+	_putchar('\n');
+	return (0);
 }
