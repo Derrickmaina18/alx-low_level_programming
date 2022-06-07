@@ -4,8 +4,8 @@
  *
  * Return: Always 0.
  */
-int print_last_digit() {
-	int r, digit;
+int print_last_digit(int r) {
+	int digit;
 	digit = r % 10;
 	_putchar(digit);
 	_putchar("/n");
