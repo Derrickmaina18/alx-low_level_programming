@@ -9,7 +9,7 @@ int main(void)
 
 	i = sums = 0;
 	j = 1;
-	for (count = 0; count < 50; count++)
+	for (count = 0; count < 100; count++)
 	{
 		k = i + j;
 		i = j;
